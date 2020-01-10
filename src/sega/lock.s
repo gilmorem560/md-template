@@ -248,6 +248,7 @@ ws01:
 ws99:
 		rts
 
+		align 2
 MessageData:
 
 HWEnableCodes:	;4x16 matrix for Hardware enable code ($1F0)
@@ -398,6 +399,7 @@ AASCIIchars:
 	dc.l	%01111111000001110000111000011100
 	dc.l	%00111000011100000111111100000000	   ;Z
 
+	align 2
 EndCheckVDP:
 
 ;-----------------------------------------------------------------------;
